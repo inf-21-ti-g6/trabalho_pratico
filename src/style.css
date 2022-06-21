@@ -74,6 +74,9 @@ body {
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -261,8 +264,6 @@ input[name='toggle'] {
   justify-content: space-between;
 }
 
-/* LOGO */
-
 .ui-section-header--logo {
   z-index: 1;
   text-decoration: none;
@@ -394,8 +395,6 @@ input[name='toggle'] {
   row-gap: var(--ui-gap-card);
 }
 
-/* CARD */
-
 .ui-component-card--pricing {
   background-color: var(--ui-color-background-primary);
   padding: 1.5rem 1.5rem 1.75rem;
@@ -423,8 +422,6 @@ input[name='toggle'] {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
-/* AMOUNT */
-
 .ui-component-card--pricing-amount-1::before {
   content: '0€';
 }
@@ -448,8 +445,6 @@ input[name='toggle'] {
 #ui-component-toggle__yearly:checked ~ div .ui-component-card--pricing-amount-3::before {
   content: '96€';
 }
-
-/* LIST */
 
 .ui-component-list--pricing {
   margin-bottom: 1.5rem;
@@ -500,6 +495,52 @@ input[name='toggle'] {
 .ui-section-footer--copyright {
   margin-bottom: 0;
   margin-right: auto;
+}
+
+.ui-flex-grow-height {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ui-section-contact {
+  justify-content: center;
+}
+
+.ui-section-contact__layout {
+  align-items: center;
+}
+
+.ui-section-contact__layout > h1,
+.ui-section-contact__layout > p {
+  text-align: center;
+}
+
+.ui-contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.ui-contact-form > input,
+.ui-contact-form > textarea {
+  padding: 0.8rem;
+  border-radius: var(--ui-radius-card);
+  margin-bottom: 1rem;
+  font-size: var(--ui-typography-p);
+  border-width: 0.12rem;
+  border-color: var(--ui-color-brand);
+}
+
+.ui-form-textarea {
+  max-width: 100%;
+  min-height: 10rem;
+}
+
+.ui-form-error-text {
+  color: red;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 48rem) {
@@ -656,6 +697,10 @@ input[name='toggle'] {
   .ui-component-button-normal {
     padding-bottom: 1.125rem;
     padding-top: 1rem;
+  }
+
+  .ui-button-cursor:not([disabled]) {
+    cursor: pointer;
   }
 
   .ui-section-header {
