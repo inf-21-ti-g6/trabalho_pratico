@@ -512,7 +512,7 @@ input[name='toggle'] {
 }
 
 .ui-section-contact__layout > h1,
-p {
+.ui-section-contact__layout > p {
   text-align: center;
 }
 
@@ -524,7 +524,7 @@ p {
 }
 
 .ui-contact-form > input,
-textarea {
+.ui-contact-form > textarea {
   padding: 0.8rem;
   border-radius: var(--ui-radius-card);
   margin-bottom: 1rem;
