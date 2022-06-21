@@ -699,6 +699,10 @@ input[name='toggle'] {
     padding-top: 1rem;
   }
 
+  .ui-button-cursor:not([disabled]) {
+    cursor: pointer;
+  }
+
   .ui-section-header {
     padding-top: 3rem;
   }
