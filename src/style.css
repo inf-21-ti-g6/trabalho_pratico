@@ -538,6 +538,11 @@ input[name='toggle'] {
   min-height: 10rem;
 }
 
+.ui-form-error-text {
+  color: red;
+  margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 48rem) {
   :root {
     --ui-typography-h1: 2.1875rem;
