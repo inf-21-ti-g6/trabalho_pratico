@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+   <xs:element name = 'areas'>
+      <xs:complexType>
+         <xs:sequence>
+             <xs:element name = 'area' type = 'AreaType' minOccurs = '0' maxOccurs = 'unbounded' />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:complexType name = "AreaType">
+      <xs:sequence>
+         <xs:element name = "name" type = "xs:string"/>
+         <xs:element name = "description" type = "xs:string"/>
+         <xs:element name = "maximumAuthorizationCodes" type = "xs:positiveInteger"/>
+         <xs:element name = "location" type = "xs:string"/>
+         <xs:element name = "isEnabled" type = "xs:boolean"/>
+      </xs:sequence>
+      <xs:attribute name = 'id' type = 'xs:string'/>
+   </xs:complexType>			 
+</xs:schema>

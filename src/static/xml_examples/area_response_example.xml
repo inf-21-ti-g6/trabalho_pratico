@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<areas>
+    <area id="Q-X01">
+        <name>Quarto 50A</name>
+        <description>Quarto com duas camas e uma casa de banho</description>
+        <maximumAuthorizationCodes>2</maximumAuthorizationCodes>
+        <location>D-50A</location>
+        <isEnabled>true</isEnabled>
+    </area>
+</areas>
