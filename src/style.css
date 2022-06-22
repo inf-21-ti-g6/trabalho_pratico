@@ -581,6 +581,10 @@ input[name='toggle'] {
   color: var(--ui-color-typography-heading);
 }
 
+.ui-api-diagram-figure {
+  margin: 0;
+}
+
 .ui-api-diagram {
   width: 100%;
   padding-top: 1rem;
