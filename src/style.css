@@ -543,6 +543,10 @@ input[name='toggle'] {
   margin-bottom: 1rem;
 }
 
+.ui-section-about {
+  padding-top: 2rem;
+}
+
 @media screen and (min-width: 48rem) {
   :root {
     --ui-typography-h1: 2.1875rem;
