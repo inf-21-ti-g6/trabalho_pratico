@@ -543,6 +543,44 @@ input[name='toggle'] {
   margin-bottom: 1rem;
 }
 
+.ui-section-about {
+  padding-top: 2rem;
+}
+
+.ui-section-api {
+  padding-top: 2rem;
+}
+
+.ui-api-table {
+  width: 100%;
+}
+
+.ui-api-table-wrapper {
+  overflow: auto;
+}
+
+.ui-api-table td,
+.ui-api-table th {
+  border: 0.1rem solid var(--ui-color-background-border);
+  padding: 0.5rem;
+}
+
+.ui-api-table tr:nth-child(even) {
+  background-color: var(--ui-color-background-secondary);
+}
+
+.ui-api-table tr:hover {
+  background-color: var(--ui-color-background-tertiary);
+}
+
+.ui-api-table th {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  text-align: left;
+  background-color: var(--ui-color-background-tertiary);
+  color: var(--ui-color-typography-heading);
+}
+
 @media screen and (min-width: 48rem) {
   :root {
     --ui-typography-h1: 2.1875rem;

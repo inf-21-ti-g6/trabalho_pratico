@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Uma nova forma de receber e gerir hóspedes aumentando o nível de satisfação final."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="icon" type="image/png" href="#" sizes="48x48" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+    <link rel="preload" as="style" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Newtur | API</title>
+  </head>
+  <body>
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <a href="index.html" role="link" aria-label="#" class="ui-section-header--logo">
+            <span class="ui-brand-name">Newtur</span>
+          </a>
+          <input type="checkbox" id="ui-section-header--menu-id" />
+          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+          <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
+            <a href="index.html" role="link" aria-label="#" class="ui-section-header--nav-link">Como funciona</a>
+            <a href="sobre.html" role="link" aria-label="#" class="ui-section-header--nav-link">Sobre</a>
+            <a href="contacto.html" role="link" aria-label="#" class="ui-section-header--nav-link">Contacto</a>
+            <a href="api.html" role="link" aria-label="#" class="ui-section-header--nav-link">API</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="ui-flex-grow-height">
+      <section class="ui-section-api ui-flex-grow-height">
+        <div class="ui-layout-container">
+          <div class="ui-flex-grow-height">
+            <h1>Comunique com os nossos serviços</h1>
+            <p class="ui-text-intro">
+              O nosso plano empresarial permite que realize integrações utilizando a nossa API. É possível criar áreas e
+              autorizações automaticamente, revogar autorizações e muito mais. Para mais funcionalidades veja a tabela
+              seguinte.
+            </p>
+            <p class="ui-text-note">
+              <small
+                >Para ver informações mais detalhadas sobre os pedidos e respostas deve aceder à sua área de
+                cliente.</small
+              >
+            </p>
+            <div class="ui-api-table-wrapper">
+              <table class="ui-api-table">
+                <thead>
+                  <tr>
+                    <th>Funcionalidade</th>
+                    <th>Endpoint</th>
+                    <th>Exemplos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Criar área</td>
+                    <td>POST /api/area</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_validation_example.xsd" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Editar área</td>
+                    <td>PUT /api/area/:area_id</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_validation_example.xsd" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Eliminar área</td>
+                    <td>DELETE /api/area/:area_id</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_validation_example.xsd" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Criar autorização</td>
+                    <td>POST /api/area/:area_id/authorization</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_validation_example.xsd" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Editar autorização</td>
+                    <td>PUT /api/area/:area_id/authorization/:auth_id</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_validation_example.xsd" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Eliminar autorização</td>
+                    <td>DELETE /api/area/:area_id/authorization/:auth_id</td>
+                    <td>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Resposta</a>
+                      <a href="static/xml_examples/area_response_example.xml" download role="link">Validação</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; Newtur 2022</small></p>
+          <a href="#" role="link" aria-label="#">
+            <svg
+              viewBox="0 0 24 24"
+              height="16"
+              width="16"
+              fill="none"
+              stroke="#AEAEAE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              role="img"
+              aria-label="#"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              />
+            </svg>
+          </a>
+          <a href="#" role="link" aria-label="#">
+            <svg
+              viewBox="0 0 24 24"
+              height="16"
+              width="16"
+              fill="none"
+              stroke="#AEAEAE"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              role="img"
+              aria-label="#"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
