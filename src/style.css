@@ -581,6 +581,16 @@ input[name='toggle'] {
   color: var(--ui-color-typography-heading);
 }
 
+.ui-api-diagram-figure {
+  margin: 0;
+}
+
+.ui-api-diagram {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+}
+
 @media screen and (min-width: 48rem) {
   :root {
     --ui-typography-h1: 2.1875rem;
