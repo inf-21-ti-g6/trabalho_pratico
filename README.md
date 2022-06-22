@@ -19,6 +19,9 @@ Toda a documentação aqui escrita foi escrita em Markdown.
 | ![foto](/doc/images/segunda_print_website.png)    | Nesta segunda imagem temos uma explicação do produto. Colocamos os vários pontos de interesse  do produto com vistos verdes para apelar a visão do cliente.    |
 | ![foto](/doc/images/terceira_print_website.png)    |Escrita de tópicos com vistos verdes para ser mais bonito visualmente e para ajudar a explicar o anteriormente dito. |
 | ![foto](/doc/images/quarta_print_website.png)    |Tabela de preços com os vistos vermelhos e verdes de forma a distinguir cada plano e o que cada plano tem para oferecer. |
+| ![foto](/doc/images/sobre_print_website.png)    |Temos também para oferecer uma diretório com todas as informações sobre a empresa. |
+| ![foto](/doc/images/contacto_print_website.png)    |Este diretório temos um form para o cliente nos contactar. O form foi feito em HTML e a validação foi feita em JavaScript|
+| ![foto](/doc/images/api_print_website.png)    |Na página API temos os comandos. POde visualizar os exemplos que temos, basta fazer o download carregando nos exemplos. Irá fazer download de um exemplo de um xsd. |
 
 
 
