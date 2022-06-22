@@ -1,51 +1,39 @@
 # Newtur
+Repository containing the final project of the "Information Technologies" class from the University of Maia.
+Developed by: [@tomas-machado](https://github.com/tomas-machado), [@xmenzzz](https://github.com/xmenzzz), [@kikangaboss](https://github.com/kikangaboss), [@rafaelsilva14](https://github.com/rafaelsilva14)
 
-README.md FILE
+## Short theme description
+The theme area chosen by the teacher for this project was: "Tourism".
+Within this area we decided to develop a project that intends to make global tourism more technological and modern through the creation of smart locks with the objective of replacing physical keys and cards.
 
-## Documentação
+## Repository organization
+- Source code can be found in the [src folder](src).
+- Documentation code can be found in the [doc folder](doc).
 
-Toda a documentação aqui escrita foi escrita em Markdown.
-
-## Localização do código
-
-* O código fonte está no(src/).
-* A documentação (doc/).
-
-## Galeria
-
-| Fotografia     | Descrição |
+## Gallery
+| Image     | Description |
 | ----------- | ----------- |
-| ![foto](/doc/images/primeira_print_website.png)      | Primeira impressão do nosso website. Aqui temos toda a informação que qualquer pessoa pode pedir.    |
-| ![foto](/doc/images/segunda_print_website.png)    | Nesta segunda imagem temos uma explicação do produto. Colocamos os vários pontos de interesse  do produto com vistos verdes para apelar a visão do cliente.    |
-| ![foto](/doc/images/terceira_print_website.png)    |Escrita de tópicos com vistos verdes para ser mais bonito visualmente e para ajudar a explicar o anteriormente dito. |
-| ![foto](/doc/images/quarta_print_website.png)    |Tabela de preços com os vistos vermelhos e verdes de forma a distinguir cada plano e o que cada plano tem para oferecer. |
-| ![foto](/doc/images/sobre_print_website.png)    |Temos também para oferecer uma diretório com todas as informações sobre a empresa. |
-| ![foto](/doc/images/contacto_print_website.png)    |Este diretório temos um form para o cliente nos contactar. O form foi feito em HTML e a validação foi feita em JavaScript|
-| ![foto](/doc/images/api_print_website.png)    |Na página API temos os comandos. POde visualizar os exemplos que temos, basta fazer o download carregando nos exemplos. Irá fazer download de um exemplo de um xsd. |
+| ![image](/doc/images/primeira_print_website.png) | Landing page.    |
+| ![image](/doc/images/segunda_print_website.png) | Landing page.    |
+| ![image](/doc/images/terceira_print_website.png) | Landing page. |
+| ![image](/doc/images/quarta_print_website.png) | Landing page. |
+| ![image](/doc/images/sobre_print_website.png) | About page. |
+| ![image](/doc/images/contacto_print_website.png) | Contact us page. |
+| ![image](/doc/images/api_print_website.png) | API page. |
 
+# Used Technologies
+- HTML
+- CSS
+- JavaScript
 
+# Documentation
+- Chapter n.1:  [Project Presentation](doc/c1.md)
+- Chapter n.2: [User Interface and Sitemap](doc/c2.md)
+- Chapter n.3: [Product](doc/c3.md)
+- Chapter n.4: [Presentation](doc/c4.md)
 
-
-# Tecnologias utilizadas
-
-Abaixo temos uma lista das tecnologias utilizadas:
-
-* HTML5 
-* CSS3
-* Javascript
-
-# Apresentação do projeto
-
-* Primeiro capitulo:  [Ir para o c1](doc/c1.md)
-
-* Segundo capitulo: [Ir para o c2](doc/c2.md)
-
-* Terceiro capitulo: [Ir para o c3](doc/c3.md)
-
-* Quarto capitulo: [Ir para o c4](doc/c4.md)
-
-# Equipa
-* Dinis Ximenes A041297
-* Tomás Tedim A040906
-* Carlos Quicanga A040804
-* Rafael Silva A041732
+# Team
+* [Dinis Ximenes](https://github.com/xmenzzz) A041297
+* [Tomás Machado](https://github.com/tomas-machado) A040906
+* [Carlos Quicanga](https://github.com/kikangaboss) A040804
+* [Rafael Silva](https://github.com/rafaelsilva14) A041732
