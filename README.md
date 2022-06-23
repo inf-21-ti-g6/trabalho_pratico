@@ -1,5 +1,5 @@
 # Newtur
-Repository containing the final project of the "Information Technologies" class from the University of Maia.
+Repository containing the final project of the "Information Technologies" class (first year) from the University of Maia.
 Developed by: [@tomas-machado](https://github.com/tomas-machado), [@xmenzzz](https://github.com/xmenzzz), [@kikangaboss](https://github.com/kikangaboss), [@rafaelsilva14](https://github.com/rafaelsilva14)
 
 ## Short theme description
